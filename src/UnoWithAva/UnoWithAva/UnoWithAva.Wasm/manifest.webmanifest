@@ -1,0 +1,10 @@
+{
+  "background_color": "#ffffff",
+  "description": "UnoWithAva",
+  "display": "standalone",
+  "name": "UnoWithAva",
+  "short_name": "UnoWithAva",
+  "start_url": "/index.html",
+  "theme_color": "#ffffff",
+  "scope": "/"
+}
