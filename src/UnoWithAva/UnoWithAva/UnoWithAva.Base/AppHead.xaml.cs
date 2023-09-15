@@ -1,3 +1,4 @@
+using Avalonia.Browser;
 using Microsoft.Extensions.Logging;
 using Microsoft.UI.Xaml;
 using System;
@@ -29,6 +30,9 @@ namespace UnoWithAva
             base.OnLaunched(args);
 
             MainWindow.SetWindowIcon();
+
+			// with commented out line below - Uno compiles!!!
+			AvaloniaView avaloniaView;// = new AvaloniaView();
         }
 
         /// <summary>

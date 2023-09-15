@@ -12,16 +12,21 @@
             <ColumnDefinition />
         </Grid.ColumnDefinitions>
 
-        <Grid Background="Red">
+        <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto" />
                 <RowDefinition />
             </Grid.RowDefinitions>
 
-            <TextBlock TextBlock="Avalonia Controls:"
+            <TextBlock Text="Avalonia Controls:"
+                       Foreground="Black"
+                       FontSize="20"
                        Margin="0,5"
                        HorizontalAlignment="Center"
                        VerticalAlignment="Center" />
+            <Grid x:Name="TheGridToReplace">
+                
+            </Grid>
         </Grid>
     </Grid>
 </Page>
